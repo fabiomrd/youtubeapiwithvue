@@ -1,0 +1,59 @@
+$color-default: #4e6180;
+$color-default-icons: #61b3c9;
+#sombra {
+    width: 100%;
+    height: 131px;
+    position: absolute;
+    top: 157px;
+    left: 0;
+    box-shadow: inset 0px -117px 94px white;
+    width: 100%;
+    height: 131px;
+    position: absolute;
+    top: 125px;
+    left: 0;
+    box-shadow: inset 0px -110px 133px white;
+}
+
+.mdl-card__title-text {
+    font-size: 17px;
+    font-weight: bold;
+    color: $color-default;
+}
+
+.mdl-card {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.card-description {
+    white-space: pre-line;
+}
+
+.outlet .icon {
+    color: $color-default-icons;
+    margin: 0 5px;
+}
+
+.micro {
+    height: 135px;
+    height: 65px;
+}
+
+.box-mainvideo iframe {
+    width: 100%;
+    height: 250px;
+}
+
+@media (min-width: 940px) {
+    .mdl-card__title-text {
+        font-size: 22px;
+    }
+    .box-mainvideo {
+        width: 500px;
+        margin: auto;
+    }
+    .box-mainvideo iframe {
+        height: 350px;
+    }
+}

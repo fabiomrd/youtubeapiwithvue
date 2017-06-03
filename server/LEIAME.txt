@@ -1,0 +1,4 @@
+Para subir o servidor é necessário o node.js instalado.
+Após instalar o node.js, abrir prompt de comando nesta pasta.
+Digite o comando "npm start" para subir o servidor.
+Para acessar a aplicação digite no browser o endereço: http://localhost:8080/

@@ -1,0 +1,90 @@
+    $color-default: #4e6180;
+    .btn-loader {
+        width: 100%;
+    }
+    
+    .mdl-card {
+        width: 100%;
+        min-height: 250px;
+    }
+    
+    .mdl-cell h5 {
+        font-size: 20px;
+        color: $color-default !important;
+    }
+    
+    .mdl-dialog {
+        border: none;
+        box-shadow: 0 9px 46px 8px rgba(0, 0, 0, .14), 0 11px 15px -7px rgba(0, 0, 0, .12), 0 24px 38px 3px rgba(0, 0, 0, .2);
+        width: 100%;
+    }
+    
+    .modal-close {
+        border: none;
+        color: #000;
+        text-align: center;
+        font-size: 12px;
+        width: 35px;
+        height: 35px;
+        background: white;
+    }
+    
+    .modal-close:focus {
+        outline: 0;
+    }
+    
+    .modal-close i {
+        font-size: 20px;
+    }
+    
+    .mdl-layout__header-row {
+        height: 56px;
+        padding: 0 55px;
+    }
+    
+    .mdl-card__supporting-text {
+        height: 75px;
+        white-space: pre-line;
+    }
+    
+    .mdl-dialog {
+        padding: 0;
+    }
+    
+    .mdl-dialog__content {
+        padding: 0;
+    }
+    
+    @media (min-width: 840px) {
+        .roll-for {
+            width: 100%;
+            margin: 0 10%;
+        }
+    }
+    
+    @media (min-width: 940px) {
+        .roll-for {
+            width: 100%;
+            margin: 0;
+        }
+        .mdl-dialog {
+            padding: 1em;
+        }
+        .mdl-dialog__content {
+            padding: 20px 24px 24px;
+            color: rgba(0, 0, 0, .54);
+        }
+        .mdl-dialog {
+            width: -webkit-fit-content;
+        }
+        .mdl-cell h5 {
+            font-size: 27px;
+        }
+        .page-content {
+            padding-right: 15px;
+            width: 1040px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }

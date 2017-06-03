@@ -1,0 +1,42 @@
+$color-default: #947f85;
+$color-default-placeholder: white;
+::-webkit-input-placeholder {
+    color: $color-default-placeholder;
+}
+
+:-ms-input-placeholder {
+    color: $color-default-placeholder;
+}
+
+::-moz-placeholder {
+    color: $color-default-placeholder;
+    opacity: 1;
+}
+
+:-moz-placeholder {
+    color: $color-default-placeholder;
+    opacity: 1;
+}
+
+@media (min-width: 0px) {
+    .mdl-layout__header-row {
+        height: 56px;
+        padding: 0 55px 0 10px;
+    }
+}
+
+.mdl-layout__header {
+    display: block;
+}
+
+.cor-topo {
+    background-color: $color-default !important;
+}
+
+@media (min-width: 1225px) {
+    .nav-top {
+        width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
